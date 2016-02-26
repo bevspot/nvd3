@@ -50,7 +50,7 @@ nv.models.multiChart = function() {
         tooltip = nv.models.tooltip(),
         dispatch = d3.dispatch();
 
-    var charts = [lines1, lines2, scatters1, scatters2, bars1, bars2, stack1, stack2];
+    var charts = [bars1, bars2, lines1, lines2, scatters1, scatters2, stack1, stack2];
 
     function chart(selection) {
         selection.each(function(data) {
